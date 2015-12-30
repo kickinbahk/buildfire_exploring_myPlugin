@@ -4,9 +4,14 @@ Let's take a look at getting started with actually seeing where you can write co
 
 ### The Developer Dashboard
 
+![Developer Dashboard](./dashboard.png)
+
 When you run the <code>index.html</code> in pluginTester, you will see two main sections of the Developer Dashboard:
 
 #### 1. The Control
+
+![Control Section on Developer Dashboard](./dashboard_control.png)
+
 The control is where you have the different types of settings and configuration for the plugin.
 
 There are three possible areas for the control:
@@ -26,9 +31,14 @@ Conversely, the media center plugin does have the "design" area enabled as we ha
 These decisions are really a judgement call on your part as to which of the areas you utilize to have as your app configuration. You can make those changes in the <code>plugin.json</code>, which we will touch on a little later in this post
 
 #### 2. The Emulator
+
+![Emulator Section on Developer Dashboard](./dashboard_emulator.png)
+
 The emulator is the preview or 'display' of your plugin and can be updated by the control. Ideally, as your users make changes in the control, the emulator will update to show the changes they have made. You could either do this with a button, or an <code>onUpdate</code> handler.
 
 ### The SDK Plugin Folder (../BuildFireSDK/myPlugin)
+
+![myPlugin tree](./myPlugin_tree.png)
 
 We have already looked at this folder a little bit in past posts, but let's dive a bit deeper this time. 
 
@@ -42,6 +52,8 @@ The Resource Folder is only for the default plugin icon and default image you ma
 The widget folder is the actual functionality of the plugin which will live in the app. It displays the configuration of the plugin instance in the emulator on the right hand side of the dashboard and it is also what will actually be seen in the app. 
 
 ### 'Plugin.json' file
+
+!['Plugin.json' file sample](./plugindotjson.png)
 This file is where you can configure the plugin. It is similar to the <code>package.json</code> file for an npm package or a <code>.gemspec</code> file for bundler. You will have the option to enable or disable the different areas of the control in this file. You will also add the details for the plugin like the author's name, the plugin name, the languages your plugin uses, and features of the plugin.
 
 ### Wrapping Up...
