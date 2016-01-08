@@ -59,6 +59,6 @@ The widget folder is the actual functionality of the plugin which will live in t
 This file is where we can configure the plugin. It is similar to the <code>package.json</code> file for an npm package or a <code>.gemspec</code> file for a ruby gem. We will have the option to enable or disable the different areas of the control in this file. We will also add the details for the plugin like the author's name, the plugin name, the languages our plugin uses, and features of the plugin.
 
 ### Wrapping Up...
-This is a basic overview of the different areas of the SDK. To dive further into the SDK, you can always check out the other posts or the [wiki](https://github.com/BuildFire/sdk/wiki) on github.
+This is a basic overview of the different areas of the SDK. To dive further into the SDK, you can always check out the [other posts](http://buildfire.com/category/developer/) or the [wiki](https://github.com/BuildFire/sdk/wiki) on github.
 
 See this post on github [here]().
