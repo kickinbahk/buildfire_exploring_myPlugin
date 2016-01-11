@@ -4,7 +4,7 @@
 
 Let's understand the elements of a plugin using the BuildFire SDK. We will start by just opening the areas of the SDK and make sure we see the "Hello World" placed in the widget and explore the areas we will be using mostly.
 
-#### The Developer Dashboard
+### The Developer Dashboard
 
 ![Developer Dashboard](./dashboard.png)
 
