@@ -61,4 +61,6 @@ This file is where we can configure the plugin. It is similar to the <code>packa
 ### Wrapping Up...
 This is a basic overview of the different areas of the SDK. To dive further into the SDK, you can always check out the [other posts](http://buildfire.com/category/developer/) or the [wiki](https://github.com/BuildFire/sdk/wiki) on github.
 
+For more information on the plugin directory and making a plugin, please see our video on [Creating Your First Plugin](http://university.buildfire.com/knowledge-base/creating-your-first-plugin/)
+
 See this post on github [here](https://github.com/kickinbahk/buildfire_exploring_myPlugin).
